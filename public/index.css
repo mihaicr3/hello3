@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.hello-bar {
+    
+    background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+    text-align: left;
+    color: black;
+    font-size: 34px;
+    font-family: 'Times New Roman', serif;
+    display: flex; /* Using flexbox for button alignment */
+    justify-content: space-between; /* Aligning buttons to the right of the screen */
+
+}
+.button {
+
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    
+}
