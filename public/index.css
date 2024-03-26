@@ -1,4 +1,5 @@
 body {
+    
     margin: 0;
     padding: 0;
     background: #FFEEEE;  /* fallback for old browsers */
@@ -33,6 +34,53 @@ background: linear-gradient(to left, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Fi
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
-
     
+}
+.main-text{
+    
+    align-items: center; 
+    justify-content: center;
+}
+.titluCaracteristici
+{
+    
+    text-align: center;
+    background-color: white;
+    color: red;
+    margin-top: 20px;
+    margin-left: 45%;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: black;
+    width: fit-content;
+    vertical-align: middle;
+    align-items: center;
+}
+.caracteristici{
+
+    text-align: center;
+    margin-top:25px;
+    margin-left: 35%;
+    border: 2px solid red;
+    background-color: white;
+    width: 30%;
+    align-items: center;
+    
+
+
+}
+.loginForm {
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 300px;
+    width: 500px; /* Adjust as needed */
 }
