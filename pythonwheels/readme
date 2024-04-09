@@ -1,1 +1,3 @@
-
+Se dezinstaleaza toate versiunile de python de pe pc.
+Se instalaeaza python 3.11.x ( aceste wheeluri sunt pentru versiunea 3.11.x)
+Se instaleaza wheelurile folosind pip install in cadrul proiectului
