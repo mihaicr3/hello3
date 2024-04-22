@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     // Citim fișierul HTML
     fs.readFile('public/index.html', (err, data) => {
         if (err) {
-            res.writeHead(500, {'Content-Type': 'text/plain'});
+          //  res.writeHead(500, {'Content-Type': ''});
             res.end('Internal Server Error');
         } else {
             res.writeHead(200, {'Content-Type': 'text/html'});
@@ -23,4 +23,3 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
     console.log(`Serverul rulează la adresa http://localhost:${port}/`);
 });
-
